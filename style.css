@@ -1,0 +1,257 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+/* CUSTOM CSS STARTS HERE */
+
+
+
+:root {
+    font-family: 'Calibri', 'Century Gothic', serif;
+    font-size: 10px;
+}
+
+#top-nav {
+    background-color: rgb(228, 228, 228);
+    margin: 0 auto;
+
+}
+
+.nav-container {
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+.right-align {
+    text-align: right;
+}
+
+/* #top-nav ul {
+    position: relative;
+    left: 20vw;
+} */
+
+
+
+.top-nav-li {
+    display: inline;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.top-nav-li a {
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 1.4rem;
+    color: rgb(50, 50, 50);
+    padding: 0 1.7rem 0 1.7rem;
+    font-weight: 500;
+
+}
+
+.top-nav-li a:hover {
+    color: #f36f36;
+    text-decoration: underline;
+}
+
+#app a {
+    color: #f36f36;
+}
+
+.header {
+    height: 6.4rem;
+    padding-top: 1.1rem;
+}
+
+.logo {
+    float: left;
+    width: 20rem;
+    height: 3.9rem;
+    vertical-align: top;
+
+
+}
+
+img {
+    width: 13.5rem;
+
+}
+
+input[type=search] {
+    width: 50%;
+    line-height: .9rem;
+    padding: 1.3rem 1.9rem;
+    box-sizing: bordser-box;
+    background-color: rgb(228, 228, 228);
+}
