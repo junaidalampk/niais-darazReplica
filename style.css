@@ -184,8 +184,8 @@ select {
   margin: 0 auto;
 }
 
-.nav-container {
-  width: 75%;
+.container {
+  width: 73%;
   margin: 0 auto;
 }
 
@@ -262,4 +262,31 @@ input[type="text"] {
   font-size: 1.7rem;
   cursor: pointer;
   vertical-align: center;
+  float: left;
+}
+
+.shoppingCart {
+  float: left;
+
+
+}
+
+.shoppingCart img {
+  margin-left: 3rem;
+  margin-top: 1rem;
+  width: 2.5rem;
+}
+
+#DLApp {
+  float: right;
+}
+
+#DLApp img {
+  margin-left: 5rem;
+  width: 19rem;
+}
+
+.slider {
+  height: 40vh;
+  background: grey;
 }
