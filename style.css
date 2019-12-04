@@ -260,10 +260,10 @@ input[type="text"] {
   background: #f36f36 url('images/searchLogo.svg') 100% no-repeat;
   border:none;
   border-radius: 0 2px 2px 0;
-  color: #ffffff;
-  font-size: 1.7rem;
+  color: #fff;
   cursor: pointer;
-  floadt: left;
+  background-size: 24px 200px;
+  background-position: center;
 }
 
 .shoppingCart {
