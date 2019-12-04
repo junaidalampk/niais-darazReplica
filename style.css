@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap');
+
 /*
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -175,7 +177,7 @@ select {
 /* CUSTOM CSS STARTS HERE */
 
 :root {
-  font-family: "Calibri", "Century Gothic", serif;
+  font-family: "Roboto", "Century Gothic", serif;
   font-size: 10px;
 }
 
@@ -185,12 +187,8 @@ select {
 }
 
 .container {
-  width: 73%;
+  width: 118.8rem;
   margin: 0 auto;
-}
-
-.right-align {
-  text-align: right;
 }
 
 /* #top-nav ul {
@@ -202,15 +200,16 @@ select {
   display: inline;
   text-transform: uppercase;
   text-decoration: none;
+
 }
 
 .top-nav-li a {
   text-decoration: none;
-  line-height: 25px;
-  font-size: 1.4rem;
+  line-height: 2.5rem;
+  font-size: 1.2rem;
   color: rgb(50, 50, 50);
   padding: 0 1.7rem 0 1.7rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .top-nav-li a:hover {
@@ -225,6 +224,8 @@ select {
 .header {
   height: 6.4rem;
   padding-top: 1.1rem;
+  box-sizing: border-box;
+  clear: right;
 }
 
 .logo {
@@ -239,30 +240,30 @@ img {
 }
 
 input[type="text"] {
-  width: 53.5%;
+  width: 65rem;
   height: 4.5rem;
-  line-height: 1.9rem;
+  line-height: 1.4rem;
   padding: 1.3rem 1.9rem;
   box-sizing: border-box;
   background-color: rgb(240, 240, 240);
-  border: 0.1rem solid rgb(240, 240, 240);
+  border: none;
   border-right: none;
   float: left;
-  font-family: "Calibri", "Century Gothic", serif;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 #search-button {
   width: 4.5rem;
   height: 4.5rem;
-  background-color: #f36f36;
-  border: 0.1rem solid #f36f36;
-  border-left: none;
+  padding-left: 0;
+  padding-right: 0;
+  background: #f36f36 url('images/searchLogo.svg') 100% no-repeat;
+  border:none;
+  border-radius: 0 2px 2px 0;
   color: #ffffff;
   font-size: 1.7rem;
   cursor: pointer;
-  vertical-align: center;
-  float: left;
+  floadt: left;
 }
 
 .shoppingCart {
@@ -282,8 +283,8 @@ input[type="text"] {
 }
 
 #DLApp img {
-  margin-left: 5rem;
-  width: 19rem;
+  margin-left: 4rem;
+  width: 18.8rem;
 }
 
 .slider {
