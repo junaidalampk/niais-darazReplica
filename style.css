@@ -180,6 +180,9 @@ select {
   font-family: "Roboto", "Century Gothic", serif;
   font-size: 10px;
 }
+.nav-bar {
+  position: relative;
+}
 
 #top-nav {
   background-color: rgb(240, 240, 240);
@@ -222,7 +225,7 @@ select {
 }
 
 .header {
-  height: 6.4rem;
+  height: 7.5rem;
   padding-top: 1.1rem;
   box-sizing: border-box;
   clear: right;
@@ -253,6 +256,7 @@ input[type="text"] {
 }
 
 #search-button {
+  float: left;
   width: 4.5rem;
   height: 4.5rem;
   padding-left: 0;
@@ -273,13 +277,14 @@ input[type="text"] {
 }
 
 .shoppingCart img {
+  float: left;
   margin-left: 3rem;
   margin-top: 1rem;
   width: 2.5rem;
 }
 
 #DLApp {
-  float: right;
+  /* float: right; */
 }
 
 #DLApp img {
@@ -288,6 +293,42 @@ input[type="text"] {
 }
 
 .slider {
-  height: 40vh;
-  background: grey;
+  height: 34.4rem;
+  background: rgb(255, 220, 220);
+}
+.slider .container {
+  
+  background: rgb(160, 76, 76);
+}
+.slider h2 {
+  font-size: 10rem;
+  color: rgb(250, 180, 180);
+  text-align: center;
+  line-height: 34.4rem;
+}
+.master-menu-left {
+  box-sizing: border-box;
+  position: relative;
+  top: -34.4rem;
+  left: 8rem;
+  height: 34.4rem;
+  width: 20rem;
+  background-color: rgb(255, 255, 255);
+  padding-top: .8rem;
+  padding-bottom: 1.2rem;
+  border-left: 1px solid rgb(240, 240, 240);
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.left-menu-item {
+/* display: block; */
+padding-left: .8rem;
+list-style: none;
+
+}
+.left-menu-item a {
+text-decoration: none;
+font-size: 1.3rem;
+line-height: 2.7rem;
+color: rgb(110, 110, 110);
 }
