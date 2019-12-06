@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap");
 
 /*
 html5doctor.com Reset Stylesheet
@@ -88,6 +88,7 @@ video {
 
 body {
   line-height: 1;
+  background-color: rgb(250, 250, 250);
 }
 
 article,
@@ -192,6 +193,7 @@ select {
 .container {
   width: 118.8rem;
   margin: 0 auto;
+  /* position: relative; */
 }
 
 /* #top-nav ul {
@@ -203,7 +205,6 @@ select {
   display: inline;
   text-transform: uppercase;
   text-decoration: none;
-
 }
 
 .top-nav-li a {
@@ -261,8 +262,8 @@ input[type="text"] {
   height: 4.5rem;
   padding-left: 0;
   padding-right: 0;
-  background: #f36f36 url('images/searchLogo.svg') 100% no-repeat;
-  border:none;
+  background: #f36f36 url("images/searchLogo.svg") 100% no-repeat;
+  border: none;
   border-radius: 0 2px 2px 0;
   color: #fff;
   cursor: pointer;
@@ -272,8 +273,6 @@ input[type="text"] {
 
 .shoppingCart {
   float: left;
-
-
 }
 
 .shoppingCart img {
@@ -284,7 +283,7 @@ input[type="text"] {
 }
 
 #DLApp {
-  /* float: right; */
+  float: right;
 }
 
 #DLApp img {
@@ -297,7 +296,6 @@ input[type="text"] {
   background: rgb(255, 220, 220);
 }
 .slider .container {
-  
   background: rgb(160, 76, 76);
 }
 .slider h2 {
@@ -306,29 +304,34 @@ input[type="text"] {
   text-align: center;
   line-height: 34.4rem;
 }
+
 .master-menu-left {
   box-sizing: border-box;
   position: relative;
+  z-index: 1000;
   top: -34.4rem;
-  left: 8rem;
+  /* left: 8rem; */
   height: 34.4rem;
   width: 20rem;
   background-color: rgb(255, 255, 255);
-  padding-top: .8rem;
+  padding-top: 0.8rem;
   padding-bottom: 1.2rem;
   border-left: 1px solid rgb(240, 240, 240);
   border-bottom: 1px solid rgb(240, 240, 240);
 }
 
 .left-menu-item {
-/* display: block; */
-padding-left: .8rem;
-list-style: none;
-
+  /* display: block; */
+  padding-left: 0.8rem;
+  list-style: none;
 }
 .left-menu-item a {
-text-decoration: none;
-font-size: 1.3rem;
-line-height: 2.7rem;
-color: rgb(110, 110, 110);
+  text-decoration: none;
+  font-size: 1.3rem;
+  line-height: 2.7rem;
+  color: rgb(110, 110, 110);
+}
+
+.main-content {
+  background-color: brown;
 }
