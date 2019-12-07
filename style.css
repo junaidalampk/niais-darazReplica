@@ -180,7 +180,6 @@ select {
 :root {
   font-family: "Roboto", "Century Gothic", serif;
   font-size: 10px;
-  background-color: rgb(245, 245, 245);
 }
 
 .nav-bar {
@@ -188,7 +187,7 @@ select {
 }
 
 #top-nav {
-  background-color:rgba(236, 236, 236, .2);
+  background-color: rgba(236, 236, 236, 0.2);
   margin: 0 auto;
 }
 
@@ -251,7 +250,7 @@ input[type="text"] {
   line-height: 1.4rem;
   padding: 1.3rem 1.9rem;
   box-sizing: border-box;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(236, 236, 236);
   border: none;
   border-right: none;
   float: left;
@@ -350,40 +349,43 @@ input[type="text"] {
 }
 
 .main-content {
- margin-top: 5rem;
- background-color:grey; 
- 
+  margin-top: 5rem;
+  background-color: grey;
 }
 
-.ribbon:first-of-type{
-  margin-left: 0;
-  
-  
-}
-.ribbon:last-of-type{
-  float: right;
-
-}
-.ribbon {
+#categories {
   box-sizing: border-box;
   float: left;
-  /* display: inline; */
-  height: 5rem;
-  width: 20%;
-  margin-left: 7.9rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  background-color:rgb(255, 255, 255);
-  border: none;
-  /* border-radius: 25%; */
-} 
-
-.ribbon img {
-  width: 4rem;
+  width: 12.3%;
+  background-color: rgb(255, 255, 255);
+  height: 14.6rem;
+  margin-right: 0.239rem;
+  margin-top: 0.239rem;
+  padding-bottom: 1rem;
 }
 
-.ribbon span {
-  background-color: lawngreen;
-  margin-left: 1rem;
-  
+#categories:last-of-type {
+  float: right;
+}
+
+#categories:hover {
+  border: none;
+  box-shadow: 0.1rem 0.1rem 0.1rem rgb(110, 110, 110);
+}
+
+#categories img {
+  display: block;
+  margin-top: 1rem;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#categories span {
+  display: block;
+  margin-top: 1.5rem;
+  padding: 0 0.5rem;
+  font-size: 1.7rem;
+  text-align: center;
+  color: rgb(40, 40, 40);
+  margin-bottom: 0;
 }
