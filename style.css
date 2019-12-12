@@ -175,7 +175,10 @@ select {
   vertical-align: middle;
 }
 
-/* CUSTOM CSS STARTS HERE */
+
+/* ============================
+CUSTOM CSS STARTS HERE
+============================ */
 
 :root {
   font-family: "Roboto", "Century Gothic", serif;
