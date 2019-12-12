@@ -180,6 +180,7 @@ select {
 :root {
   font-family: "Roboto", "Century Gothic", serif;
   font-size: 10px;
+  
 }
 
 .nav-bar {
@@ -193,6 +194,7 @@ select {
 
 .container {
   width: 118.8rem;
+  /* max-width: 50%; */
   margin: 0 auto;
   /* position: relative; */
 }
@@ -230,6 +232,7 @@ select {
   height: 7.5rem;
   padding-top: 1.1rem;
   box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
   /* clear: right; */
 }
 
@@ -328,7 +331,7 @@ input[type="text"] {
   left: 20.5rem; */
   height: 34.4rem;
   width: 20rem;
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(255, 255, 255);
   padding-top: 0.8rem;
   padding-bottom: 1.2rem;
   border-left: 1px solid rgb(240, 240, 240);
@@ -348,44 +351,195 @@ input[type="text"] {
   color: rgb(110, 110, 110);
 }
 
-.main-content {
+.section {
+  overflow: hidden;
   margin-top: 5rem;
-  background-color: grey;
+ /* background-color:grey;  */
+  clear: both;
+  margin-bottom: 5rem;
 }
 
-#categories {
+.section h2 {
+  font-size: 2.5rem;
+  color: rgb(40, 40, 40);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+
+/* #categories:last-of-type {
+  float: right;
+} */
+
+.category {
   box-sizing: border-box;
   float: left;
-  width: 12.3%;
   background-color: rgb(255, 255, 255);
-  height: 14.6rem;
-  margin-right: 0.239rem;
-  margin-top: 0.239rem;
-  padding-bottom: 1rem;
+  width: 14.7rem;
+  height: 14.7rem;
+  margin-right: .15rem;
+  margin-bottom: .15rem;
+  border: .1rem solid white;
+}
+.category:hover {
+  border: .1rem solid rgb(240, 240, 240);
+  cursor: pointer;
 }
 
-#categories:last-of-type {
-  float: right;
+.category .image {
+background-color:darkgray;
+  width: 8rem;
+  height: 8rem;
+  margin: 1rem auto;
+
+}
+.category .caption {
+/* background-color: grey; */
+  width: 12rem;
+  height: 4rem;
+  margin: 0 auto;
+
 }
 
-#categories:hover {
-  border: none;
-  box-shadow: 0.1rem 0.1rem 0.1rem rgb(110, 110, 110);
+.image img {
+  max-width: 8rem;
+  max-height: 8rem;
 }
 
-#categories img {
+.caption span {
   display: block;
-  margin-top: 1rem;
-  width: 45%;
-  margin-left: auto;
-  margin-right: auto;
-}
-#categories span {
-  display: block;
-  margin-top: 1.5rem;
-  padding: 0 0.5rem;
-  font-size: 1.7rem;
   text-align: center;
-  color: rgb(40, 40, 40);
-  margin-bottom: 0;
+  font-size: 1.7rem;
+
 }
+.brands:last-child {
+  float: right;
+  margin-right: 0;
+  
+}
+
+.brands {
+  box-sizing: border-box;
+  float: left;
+  background-color: rgb(255, 255, 255);
+  width: 15.5%;
+  height: 25rem;
+  margin-right: 1.65rem;
+  margin-bottom: .15rem;
+  border: .1rem solid white;
+}
+
+.brands:hover {
+  border: .3rem solid rgb(240, 240, 240);
+  cursor: pointer;
+}
+
+.brands .image {
+  /* background-color:darkgray; */
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+ 
+  }
+
+  .brands .caption {
+    background-color: rgb(240, 240, 240);
+      width: 100%;
+      height: 9.5rem;
+      margin: 0 auto;
+      position: relative;
+      top: -7rem;
+      /* margin-bottom: -10rem; */
+      z-index: 100;
+      border: none;
+    
+    }
+
+    .brands .image img {
+      display: block;
+      margin: 0 auto;
+      min-width: 100%;
+      max-height: 100%;
+    }
+
+    .brands .caption img {
+      background-color: rgb(255, 255, 255);
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 5rem;
+      position: relative;
+      top: -3rem;
+      margin-bottom: -3rem;
+      border: .4rem solid white;
+    }
+
+    .brands .caption span {
+      margin-top: .7rem;
+      display: block;
+      text-align: center;
+      font-size: 1.3rem;
+    }
+
+    .brands .caption .brand-tagline {
+      font-size: 1.2rem;
+      color: rgb(90, 90, 90);
+    }
+
+    .footer-first {
+      overflow: hidden;
+      /* width: 100%; */
+      height: 36rem;
+      background-color: rgb(46, 46, 84);
+      margin-bottom: 2rem;
+      color: white;
+      padding: 2rem 10rem 2rem 0;
+    }
+    .customer-care {
+      float: left;
+      width: 30%;
+    }
+
+    .customer-care h2 {
+      font-weight: 400;
+      font-size: 2rem;
+      margin-top: .5rem;
+    }
+
+    .customer-care ul {
+      margin-top: 1.5rem;
+      margin-bottom: 2rem;
+
+    }
+
+
+  .customer-care ul li {
+    list-style-type: none;
+    line-height: 2rem;
+  }
+  .customer-care ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+  }
+  .customer-care ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .about-daraz h2 {
+    margin-top: 4rem;
+  }
+
+  .appstores {
+    margin-top: 2rem;
+  }
+  .appstores img {
+    margin-right: 2rem;
+  }
+
+  #apple  {
+width: 12rem;
+  }
+
+  .footer-second {
+    background-color: gray;
+  }
